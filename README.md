@@ -14,10 +14,6 @@ The code utilizes intraday minute data obtained from Yahoo Finance (yfinance lib
 - plotly
 - scipy
 
-Install the required dependencies using the following command:
-```bash
-pip install pandas numpy matplotlib yfinance plotly scipy
-Usage
 Specify the ticker_symbol, start_date, and end_date variables in the code.
 Run the code to download and analyze intraday minute data.
 The script identifies pivot points and uses linear regression to analyze slope patterns.
